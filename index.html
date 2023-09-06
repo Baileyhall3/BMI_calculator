@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+    <link rel ="icon" type="image/x-icon" href="images/apple_icon.png">
+</head>
+<body>
+    <div class="wrapper">
+        <h3 id="info">Enter height (cm) and weight (kg)</h3>
+        <p class="input">Height</p>
+        <input type="number" onfocus="this.value=''" id="height">
+        <p class="input">Weight</p>
+        <input type="number" onfocus="this.value=''" id="weight"> <br>
+            <div class="loader">
+                <img src="images/loader.gif">
+            </div>
+            <p id="output"></p>
+            <p id="state"></p>
+
+            <button id="btn" class="calculate">Calculate</button>
+            <button id="btn" class="clear">Clear</button>
+            <br>
+            <br>
+
+            <div class="footer">
+                <br>
+                &copy; Designed by <a href="https://github.com/Baileyhall3">Bailey Hall</a>
+                <br>
+                All information provided by <a href="https://en.wikipedia.org/wiki/Body_mass_index">Wikipedia</a>
+            </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
