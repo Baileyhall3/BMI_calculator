@@ -8,9 +8,7 @@
 }
 
 body{
-    background: url("images/bicycle.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("../images/bicycle.jpg") no-repeat center center / cover;
     background-attachment: fixed;
 }
 .wrapper{
@@ -102,6 +100,13 @@ body{
 .register-container{
     position: absolute;
     right: -520px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+.details-container{
+    position: absolute;
     width: 500px;
     display: flex;
     flex-direction: column;
